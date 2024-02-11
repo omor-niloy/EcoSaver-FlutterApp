@@ -1,0 +1,113 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.ecosaver"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml
+10    <!-- <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> -->
+11    <!-- <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /> -->
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:4:22-64
+13
+14    <permission
+14-->[androidx.core:core:1.10.1] /home/promod/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:22:5-24:47
+15        android:name="com.example.ecosaver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+15-->[androidx.core:core:1.10.1] /home/promod/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:23:9-81
+16        android:protectionLevel="signature" />
+16-->[androidx.core:core:1.10.1] /home/promod/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:24:9-44
+17
+18    <uses-permission android:name="com.example.ecosaver.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+18-->[androidx.core:core:1.10.1] /home/promod/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:5-97
+18-->[androidx.core:core:1.10.1] /home/promod/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:26:22-94
+19
+20    <application
+21        android:name="android.app.Application"
+21-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:7:9-42
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.10.1] /home/promod/.gradle/caches/transforms-3/c4988ff80110f75080a936fc6f044848/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
+23        android:icon="@mipmap/ic_launcher"
+23-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:8:9-43
+24        android:label="ecosaver" >
+24-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:6:9-33
+25        <activity
+25-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:9:9-29:20
+26            android:name="com.example.ecosaver.MainActivity"
+26-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:10:13-41
+27            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+27-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:14:13-163
+28            android:exported="true"
+28-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:11:13-36
+29            android:hardwareAccelerated="true"
+29-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:15:13-47
+30            android:launchMode="singleTop"
+30-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:12:13-43
+31            android:theme="@style/LaunchTheme"
+31-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:13:13-47
+32            android:windowSoftInputMode="adjustResize" >
+32-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:16:13-55
+33
+34            <!--
+35                 Specifies an Android theme to apply to this Activity as soon as
+36                 the Android process has started. This theme is visible to the user
+37                 while the Flutter UI initializes. After that, this theme continues
+38                 to determine the Window background behind the Flutter UI.
+39            -->
+40            <meta-data
+40-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:21:13-24:15
+41                android:name="io.flutter.embedding.android.NormalTheme"
+41-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:22:17-72
+42                android:resource="@style/NormalTheme" />
+42-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:23:17-54
+43
+44            <intent-filter>
+44-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:25:13-28:29
+45                <action android:name="android.intent.action.MAIN" />
+45-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:26:17-69
+45-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:26:25-66
+46
+47                <category android:name="android.intent.category.LAUNCHER" />
+47-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:27:17-77
+47-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:27:27-74
+48            </intent-filter>
+49        </activity>
+50        <!--
+51             Don't delete the meta-data below.
+52             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+53        -->
+54        <meta-data
+54-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:32:9-34:33
+55            android:name="flutterEmbedding"
+55-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:33:13-44
+56            android:value="2" />
+56-->/home/promod/Documents/flutter/ecosaver/android/app/src/main/AndroidManifest.xml:34:13-30
+57
+58        <activity
+58-->[:url_launcher_android] /home/promod/Documents/flutter/ecosaver/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:10:9-13:74
+59            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+59-->[:url_launcher_android] /home/promod/Documents/flutter/ecosaver/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:11:13-74
+60            android:exported="false"
+60-->[:url_launcher_android] /home/promod/Documents/flutter/ecosaver/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:12:13-37
+61            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+61-->[:url_launcher_android] /home/promod/Documents/flutter/ecosaver/build/url_launcher_android/intermediates/merged_manifest/release/AndroidManifest.xml:13:13-71
+62
+63        <uses-library
+63-->[androidx.window:window:1.0.0-beta04] /home/promod/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:25:9-27:40
+64            android:name="androidx.window.extensions"
+64-->[androidx.window:window:1.0.0-beta04] /home/promod/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:26:13-54
+65            android:required="false" />
+65-->[androidx.window:window:1.0.0-beta04] /home/promod/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:27:13-37
+66        <uses-library
+66-->[androidx.window:window:1.0.0-beta04] /home/promod/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:28:9-30:40
+67            android:name="androidx.window.sidecar"
+67-->[androidx.window:window:1.0.0-beta04] /home/promod/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:29:13-51
+68            android:required="false" />
+68-->[androidx.window:window:1.0.0-beta04] /home/promod/.gradle/caches/transforms-3/25cee5f028ac2a6b79fd6278ff5b59e2/transformed/jetified-window-1.0.0-beta04/AndroidManifest.xml:30:13-37
+69    </application>
+70
+71</manifest>
